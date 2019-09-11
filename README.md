@@ -6,7 +6,7 @@ serial connection and logs the pressure to a text file.
 The script is configured to log channels 1 and 2, and assumes the ion pump controller is
 connected via a USB to serial adapter on on /dev/ttyUSB0.
 
-There is no configuration, if you want to log different channels or us a different
+There is no configuration, if you want to log different channels or use a different
 serial port, manually modify the script to do so.
 
 This code is Python 2 and Python 3 compatible, requires the `pyserial` library, and has
